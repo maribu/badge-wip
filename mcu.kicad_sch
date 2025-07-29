@@ -4636,7 +4636,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 107.95 41.91 180)
+		(at 107.95 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4644,7 +4644,7 @@
 		(dnp no)
 		(uuid "079b3911-7f5e-4077-8439-a783c1d7e7e8")
 		(property "Reference" "C3"
-			(at 110.236 44.45 0)
+			(at 110.744 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +4660,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 106.9848 38.1 0)
+			(at 108.9152 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5091,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.38 41.91 180)
+		(at 119.38 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5099,7 +5099,7 @@
 		(dnp no)
 		(uuid "1fe93798-8ce9-44a2-b883-094c63e3d93c")
 		(property "Reference" "C4"
-			(at 121.666 44.45 0)
+			(at 122.174 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +5107,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 115.824 41.91 90)
+			(at 116.078 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5115,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 118.4148 38.1 0)
+			(at 120.3452 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +5614,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 96.52 41.91 180)
+		(at 96.52 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5622,7 +5622,7 @@
 		(dnp no)
 		(uuid "85c8f836-b0bd-4704-bee7-0c4549f748ba")
 		(property "Reference" "C2"
-			(at 98.806 44.45 0)
+			(at 99.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +5638,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 95.5548 38.1 0)
+			(at 97.4852 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6587,7 +6587,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 41.91 180)
+		(at 165.1 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6595,7 +6595,7 @@
 		(dnp no)
 		(uuid "ce595cb3-41dc-421a-9392-2c7f9e744562")
 		(property "Reference" "C9"
-			(at 167.386 44.45 0)
+			(at 167.894 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6611,7 +6611,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 164.1348 38.1 0)
+			(at 166.0652 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6872,7 +6872,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 30.48 41.91 180)
+		(at 30.48 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6880,7 +6880,7 @@
 		(dnp no)
 		(uuid "df961523-44b9-4d98-8af7-27b690c9eded")
 		(property "Reference" "C12"
-			(at 32.766 44.45 0)
+			(at 33.274 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,7 +6896,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 29.5148 38.1 0)
+			(at 31.4452 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,7 +6948,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 41.91 180)
+		(at 153.67 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6956,7 +6956,7 @@
 		(dnp no)
 		(uuid "e1e8502f-d5cd-46ec-a825-fb6700b06f98")
 		(property "Reference" "C7"
-			(at 155.956 44.45 0)
+			(at 156.718 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,7 +6964,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 150.114 41.91 90)
+			(at 150.368 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,7 +6972,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 152.7048 38.1 0)
+			(at 154.6352 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,7 +7262,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 142.24 41.91 180)
+		(at 142.24 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7270,7 +7270,7 @@
 		(dnp no)
 		(uuid "ec5f637b-776a-482a-bd9e-a5ae3f39561d")
 		(property "Reference" "C6"
-			(at 144.526 44.45 0)
+			(at 145.288 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7286,7 +7286,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 141.2748 38.1 0)
+			(at 143.2052 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
