@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "633139cb-15e1-4cfa-b8e8-36e73930b2cb")
 	(paper "A4")
+	(title_block
+		(title "Badge for RIOT Summit '25")
+		(date "2025-08-03")
+		(rev "0.1")
+		(company "Marian Buschsieweke")
+		(comment 1 "With lots of help from https://badge.team")
+	)
 	(lib_symbols
 		(symbol "+1V1_1"
 			(power)
@@ -898,7 +905,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
+			(property "Footprint" "custom:RP2040-QFN-56"
 				(at -19.05 0 0)
 				(effects
 					(font
@@ -4024,7 +4031,7 @@
 		(uuid "08dbe86e-3ba1-4394-b550-66aa7e65389e")
 	)
 	(label "QSPI_SD3"
-		(at 231.14 50.8 0)
+		(at 231.14 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4034,7 +4041,7 @@
 		(uuid "08f0367e-f063-4fd7-a80b-1eea5c72d79c")
 	)
 	(label "QSPI_CLK"
-		(at 231.14 53.34 0)
+		(at 231.14 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4074,7 +4081,7 @@
 		(uuid "62cebbcd-d3e1-48f4-b00f-eba7bccfe805")
 	)
 	(label "QSPI_SD0"
-		(at 231.14 43.18 0)
+		(at 231.14 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4094,7 +4101,7 @@
 		(uuid "8f1730cf-6d45-42ef-8adf-dc938b1b7672")
 	)
 	(label "QSPI_SD1"
-		(at 231.14 45.72 0)
+		(at 231.14 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4134,7 +4141,7 @@
 		(uuid "d2a2954f-5b44-4a1a-8a59-1ca3b8bd2099")
 	)
 	(label "QSPI_SD2"
-		(at 231.14 48.26 0)
+		(at 231.14 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4184,7 +4191,7 @@
 		)
 		(uuid "0149e38c-a864-4172-bd47-cfe4260113e0")
 	)
-	(hierarchical_label "ADC1"
+	(hierarchical_label "GPIO27_ADC1"
 		(shape bidirectional)
 		(at 118.11 158.75 0)
 		(effects
@@ -4327,7 +4334,7 @@
 		)
 		(uuid "5fd1dc97-b403-467a-a8bb-a4346b25a22d")
 	)
-	(hierarchical_label "ADC2"
+	(hierarchical_label "GPIO28_ADC2"
 		(shape bidirectional)
 		(at 118.11 161.29 0)
 		(effects
@@ -4503,7 +4510,7 @@
 		)
 		(uuid "a1c10dbf-9a8e-48c7-8c5d-4a98133f1b9e")
 	)
-	(hierarchical_label "ADC3"
+	(hierarchical_label "GPIO29_ADC3"
 		(shape bidirectional)
 		(at 118.11 163.83 0)
 		(effects
@@ -4547,7 +4554,7 @@
 		)
 		(uuid "dd418496-86f7-48b6-b7a5-7b8a267d639f")
 	)
-	(hierarchical_label "ADC0"
+	(hierarchical_label "GPIO26_ADC0"
 		(shape bidirectional)
 		(at 118.11 156.21 0)
 		(effects
@@ -4578,7 +4585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03d1fca4-04b2-4c49-b461-e16927141027")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR015"
 			(at 31.75 137.16 0)
 			(effects
 				(font
@@ -4628,7 +4635,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR017")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4643,7 +4650,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "079b3911-7f5e-4077-8439-a783c1d7e7e8")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 110.744 44.196 0)
 			(effects
 				(font
@@ -4704,7 +4711,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4719,7 +4726,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a6e7d65-d603-42b8-9659-bf2df351302f")
-		(property "Reference" "R38"
+		(property "Reference" "R9"
 			(at 118.11 70.104 90)
 			(effects
 				(font
@@ -4779,7 +4786,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "R38")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4794,7 +4801,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a92f0ee-d37d-4d1c-bd75-5bc6f024d7a6")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR019"
 			(at 71.12 180.34 0)
 			(effects
 				(font
@@ -4843,7 +4850,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR073")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4858,7 +4865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11226dd3-d74f-41c0-a6f3-4d96f55449e7")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 43.18 71.12 0)
 			(effects
 				(font
@@ -4874,7 +4881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
+		(property "Footprint" "custom:RP2040-QFN-56"
 			(at 52.07 120.65 0)
 			(effects
 				(font
@@ -5083,7 +5090,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5098,7 +5105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fe93798-8ce9-44a2-b883-094c63e3d93c")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 122.174 44.45 0)
 			(effects
 				(font
@@ -5159,7 +5166,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5174,7 +5181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f3a9a17-27ea-4eb5-8a2b-3ee806b8b9ce")
-		(property "Reference" "C11"
+		(property "Reference" "C3"
 			(at 42.418 59.69 0)
 			(effects
 				(font
@@ -5236,7 +5243,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "C11")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5339,7 +5346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50f81ee2-e00d-4b01-aa99-a38cfce7d9b5")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR024"
 			(at 213.36 148.59 0)
 			(effects
 				(font
@@ -5388,7 +5395,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR074")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5404,7 +5411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51bc08b1-19c6-4d84-b920-bbe3d4aeae39")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR025"
 			(at 224.79 101.6 0)
 			(effects
 				(font
@@ -5454,7 +5461,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR042")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5469,7 +5476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53fa1ab3-0b8d-48d9-9dec-755cc6cccb2b")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 133.096 44.45 0)
 			(effects
 				(font
@@ -5530,7 +5537,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5545,7 +5552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7322fc22-9a54-492a-af1a-b679795fd136")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 222.25 101.854 90)
 			(effects
 				(font
@@ -5606,7 +5613,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5621,7 +5628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85c8f836-b0bd-4704-bee7-0c4549f748ba")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 99.06 44.45 0)
 			(effects
 				(font
@@ -5682,7 +5689,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5698,7 +5705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b296d33-2d87-44ab-8398-f2965ccb8033")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR028"
 			(at 251.46 67.31 0)
 			(effects
 				(font
@@ -5748,7 +5755,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR031")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5764,7 +5771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d1ace5d-a550-4654-b4bf-66d409525e96")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR020"
 			(at 87.63 39.37 0)
 			(effects
 				(font
@@ -5814,7 +5821,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR016")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5829,7 +5836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ea3a330-6f4c-45fb-adda-0cc441d333a6")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 265.43 38.1 0)
 			(effects
 				(font
@@ -5879,7 +5886,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5894,7 +5901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "920d97e7-ee7c-458b-9ff0-1698a4266b7f")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR026"
 			(at 226.06 148.59 0)
 			(effects
 				(font
@@ -5943,7 +5950,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR075")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5958,7 +5965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95bb4b78-60ec-4081-8035-e9f36b4c6589")
-		(property "Reference" "R39"
+		(property "Reference" "R10"
 			(at 118.11 82.296 90)
 			(effects
 				(font
@@ -6018,7 +6025,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "R39")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6033,7 +6040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a03752c0-5f1f-4c44-a812-69f6c65b4389")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR018"
 			(at 58.42 180.34 0)
 			(effects
 				(font
@@ -6082,7 +6089,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR072")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6097,7 +6104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2fbebc3-4d1e-43a1-80ad-b66447da3e48")
-		(property "Reference" "C14"
+		(property "Reference" "C5"
 			(at 97.028 59.69 0)
 			(effects
 				(font
@@ -6159,7 +6166,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "C14")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6174,7 +6181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a46f8ea4-25df-4cdf-a643-e0c64b984fda")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR021"
 			(at 96.52 68.58 0)
 			(effects
 				(font
@@ -6223,7 +6230,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR071")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6238,7 +6245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a81b255b-09ff-49e3-9534-0658c574e0a4")
-		(property "Reference" "R4"
+		(property "Reference" "R8"
 			(at 29.21 137.414 90)
 			(effects
 				(font
@@ -6299,7 +6306,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "R4")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6314,7 +6321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abad0e34-e8fe-4ca9-b5c3-a3e4012872a2")
-		(property "Reference" "C13"
+		(property "Reference" "C2"
 			(at 44.196 44.45 0)
 			(effects
 				(font
@@ -6375,7 +6382,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "C13")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6390,7 +6397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b37df40a-3c75-4f6b-96de-b50f6f79e76a")
-		(property "Reference" "R5"
+		(property "Reference" "R13"
 			(at 237.49 149.606 90)
 			(effects
 				(font
@@ -6451,7 +6458,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "R5")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6466,7 +6473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7b3ee2b-8729-4d21-939f-f55ef8b7b98b")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR022"
 			(at 165.1 55.88 0)
 			(effects
 				(font
@@ -6515,7 +6522,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR069")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6530,7 +6537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5345f70-8700-4539-a482-1a5216114a1a")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR016"
 			(at 41.91 68.58 0)
 			(effects
 				(font
@@ -6579,7 +6586,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR070")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6594,7 +6601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce595cb3-41dc-421a-9392-2c7f9e744562")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 167.894 44.45 0)
 			(effects
 				(font
@@ -6655,7 +6662,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6670,7 +6677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce625758-7e5e-4c55-a0fb-936f177d32da")
-		(property "Reference" "C15"
+		(property "Reference" "C12"
 			(at 203.2 133.35 0)
 			(effects
 				(font
@@ -6733,7 +6740,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "C15")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6748,7 +6755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d12176e0-e415-432c-9307-0467d8d63826")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR023"
 			(at 198.12 156.21 0)
 			(effects
 				(font
@@ -6797,7 +6804,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR076")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6814,7 +6821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d938b931-f9df-4cb7-91e5-621974c78238")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 50.8 39.37 0)
 			(effects
 				(font
@@ -6864,7 +6871,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6879,7 +6886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df961523-44b9-4d98-8af7-27b690c9eded")
-		(property "Reference" "C12"
+		(property "Reference" "C1"
 			(at 33.274 44.45 0)
 			(effects
 				(font
@@ -6940,7 +6947,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "C12")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6955,7 +6962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1e8502f-d5cd-46ec-a825-fb6700b06f98")
-		(property "Reference" "C7"
+		(property "Reference" "C10"
 			(at 156.718 44.196 0)
 			(effects
 				(font
@@ -7016,7 +7023,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "C7")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7115,7 +7122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6080698-023a-4f88-abfc-e20f9f67ffbc")
-		(property "Reference" "C8"
+		(property "Reference" "C14"
 			(at 259.08 35.56 90)
 			(effects
 				(font
@@ -7176,7 +7183,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "C8")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7191,7 +7198,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9d18ef8-a821-4a1c-9a6d-4e58e518cfc9")
-		(property "Reference" "C16"
+		(property "Reference" "C13"
 			(at 203.2 151.13 0)
 			(effects
 				(font
@@ -7254,7 +7261,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "C16")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7269,7 +7276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec5f637b-776a-482a-bd9e-a5ae3f39561d")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 145.288 44.196 0)
 			(effects
 				(font
@@ -7330,7 +7337,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7345,7 +7352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec9c8647-a908-4e7f-be61-beee5d8ccb08")
-		(property "Reference" "R7"
+		(property "Reference" "R12"
 			(at 231.14 110.236 90)
 			(effects
 				(font
@@ -7406,7 +7413,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "R7")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7422,7 +7429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f33777d7-e1b1-442c-8829-555070640ee7")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 251.46 35.56 0)
 			(effects
 				(font
@@ -7472,7 +7479,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7487,7 +7494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f977ec62-498c-45cc-944e-11fe0a33286d")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR014"
 			(at 30.48 54.61 0)
 			(effects
 				(font
@@ -7536,7 +7543,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/34656f36-6908-4505-9451-976d9716c7bc"
-					(reference "#PWR068")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)

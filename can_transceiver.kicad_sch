@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "f96a5bca-1ce9-4ea1-8559-694f52d72b40")
 	(paper "A4")
+	(title_block
+		(title "Badge for RIOT Summit '25")
+		(date "2025-08-03")
+		(rev "0.1")
+		(company "Marian Buschsieweke")
+		(comment 1 "With lots of help from https://badge.team")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1375,16 +1382,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 40.64) (xy 139.7 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f3f3779-6757-4533-a2b5-99724ac7d74a")
-	)
-	(wire
-		(pts
 			(xy 160.02 40.64) (xy 160.02 44.45)
 		)
 		(stroke
@@ -1405,6 +1402,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 44.45) (xy 55.88 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c6451a-6dd8-4805-bae3-d469b59f4807")
+	)
+	(wire
+		(pts
 			(xy 149.86 57.15) (xy 161.29 57.15)
 		)
 		(stroke
@@ -1412,6 +1419,16 @@
 			(type default)
 		)
 		(uuid "1b689376-16a6-4f47-b767-21bb27a4744f")
+	)
+	(wire
+		(pts
+			(xy 76.2 46.99) (xy 87.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41256279-f411-4e8a-aaa5-644ffb9eea98")
 	)
 	(wire
 		(pts
@@ -1495,7 +1512,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 52.07) (xy 237.49 52.07)
+			(xy 234.95 52.07) (xy 250.19 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1515,13 +1532,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 49.53) (xy 237.49 49.53)
+			(xy 234.95 49.53) (xy 250.19 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "77344920-d714-405b-84b9-04bc9471c404")
+	)
+	(wire
+		(pts
+			(xy 46.99 119.38) (xy 60.96 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f3e847-cad0-44b1-8ba3-fda8e8abc3ba")
 	)
 	(wire
 		(pts
@@ -1545,7 +1572,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 40.64) (xy 162.56 40.64)
+			(xy 160.02 40.64) (xy 167.64 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1562,6 +1589,26 @@
 			(type default)
 		)
 		(uuid "9c0c35b1-7396-4092-b28c-720ce5284477")
+	)
+	(wire
+		(pts
+			(xy 76.2 49.53) (xy 87.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca419cb-4aa5-438a-9aac-217f75c72830")
+	)
+	(wire
+		(pts
+			(xy 234.95 44.45) (xy 250.19 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0265162-690c-4ccd-a863-00b1fb73952e")
 	)
 	(wire
 		(pts
@@ -1595,6 +1642,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 106.68) (xy 60.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc82ae53-5f1b-4cf6-aa95-a3866b8a4d7b")
+	)
+	(wire
+		(pts
 			(xy 160.02 36.83) (xy 160.02 40.64)
 		)
 		(stroke
@@ -1602,6 +1659,16 @@
 			(type default)
 		)
 		(uuid "c821084e-aea4-4d07-a472-7596f22aa1a0")
+	)
+	(wire
+		(pts
+			(xy 52.07 46.99) (xy 55.88 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0fed7e1-fcda-470d-862d-cec39849db18")
 	)
 	(wire
 		(pts
@@ -1635,6 +1702,26 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 40.64) (xy 139.7 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea4c483-a301-4e80-95ec-8e6eeddd8391")
+	)
+	(wire
+		(pts
+			(xy 46.99 113.03) (xy 60.96 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2064d43-6783-4dd1-add7-979a1b4aea0d")
+	)
+	(wire
+		(pts
 			(xy 68.58 106.68) (xy 72.39 106.68)
 		)
 		(stroke
@@ -1653,6 +1740,16 @@
 		)
 		(uuid "fddffac3-44ea-4754-9305-4c45f7084c64")
 	)
+	(label "~{FAST_CAN}"
+		(at 87.63 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d004b05-ded3-4a82-b34a-789bbfb551c2")
+	)
 	(label "TX"
 		(at 35.56 45.72 0)
 		(effects
@@ -1664,82 +1761,82 @@
 		(uuid "1a11fd11-4d23-465c-95a7-d1a84a9e96dd")
 	)
 	(label "CAN_P"
-		(at 237.49 49.53 0)
+		(at 250.19 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1d900f2c-5b8a-4841-ba9e-b628041bc51e")
 	)
 	(label "CAN_P"
-		(at 76.2 46.99 0)
+		(at 87.63 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3f9ae5ce-762f-40cd-9a1b-8a6df9f59f57")
 	)
 	(label "TX"
-		(at 55.88 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "42580255-ba73-406e-8445-fcefaa884868")
-	)
-	(label "CAN_N"
-		(at 60.96 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "46b3bf35-7b9f-4d8a-85db-ee260c9d8f18")
-	)
-	(label "CAN_P"
-		(at 60.96 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4c2ae860-8e79-4851-befe-96b91ae3d81e")
-	)
-	(label "CAN_N"
-		(at 76.2 49.53 0)
+		(at 52.07 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6b520369-a2b5-4169-9052-7be527fe5c42")
+		(uuid "42580255-ba73-406e-8445-fcefaa884868")
 	)
-	(label "RX"
-		(at 55.88 46.99 180)
+	(label "CAN_N"
+		(at 46.99 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46b3bf35-7b9f-4d8a-85db-ee260c9d8f18")
+	)
+	(label "CAN_P"
+		(at 46.99 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c2ae860-8e79-4851-befe-96b91ae3d81e")
+	)
+	(label "CAN_N"
+		(at 87.63 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "83ccff77-c61f-44e9-9653-ba8eee048947")
+		(uuid "6b520369-a2b5-4169-9052-7be527fe5c42")
 	)
-	(label "VCC_CAN_IDLE"
-		(at 149.86 57.15 180)
+	(label "RX"
+		(at 52.07 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
+		)
+		(uuid "83ccff77-c61f-44e9-9653-ba8eee048947")
+	)
+	(label "VCC_CAN_IDLE"
+		(at 149.86 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "85aeb7de-c397-4484-ab9b-b74b3fa13cf6")
 	)
@@ -1754,52 +1851,52 @@
 		(uuid "9fcb5e68-6438-4558-bcb4-7f82c45539ee")
 	)
 	(label "CAN_N"
-		(at 162.56 40.64 0)
+		(at 167.64 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b6ee569e-9622-4d89-8c26-0a00df45335c")
 	)
 	(label "CAN_N"
-		(at 237.49 52.07 0)
+		(at 250.19 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b9ad34ac-d9a2-46fb-89c8-b49bd98ee635")
 	)
 	(label "VCC_CAN_IDLE"
-		(at 234.95 44.45 0)
+		(at 250.19 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc15b005-e908-4405-83e6-b3fbecd959b0")
+	)
+	(label "CAN_P"
+		(at 132.08 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "bc15b005-e908-4405-83e6-b3fbecd959b0")
-	)
-	(label "CAN_P"
-		(at 137.16 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
 		(uuid "e0dda0bb-c477-42ca-9b44-2aab3fdbba03")
 	)
 	(label "VCC_CAN_IDLE"
-		(at 60.96 106.68 180)
+		(at 46.99 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e7b9afbf-4500-4fcb-bfc8-2ad9ac581de4")
 	)
@@ -1834,7 +1931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0691b571-0722-46c7-bbec-2ab3b0b70b23")
-		(property "Reference" "C19"
+		(property "Reference" "C17"
 			(at 164.338 60.96 0)
 			(effects
 				(font
@@ -1897,7 +1994,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "C19")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1980,6 +2077,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 64.77 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27a53ff1-257c-4a87-ab1c-4ba45e73bdb2")
+		(property "Reference" "D306"
+			(at 64.77 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom:SOD-882_L1.0-W0.6-BI"
+			(at 64.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590905117283729408"
+			(at 64.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 64.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420372"
+			(at 64.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fdf3805-594f-4f87-b3ad-d60695592bc7")
+		)
+		(pin "2"
+			(uuid "7b317278-710d-4a24-ba03-a64d9b88446a")
+		)
+		(instances
+			(project "riot-badge"
+				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
+					(reference "D306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 149.86 50.8 180)
 		(unit 1)
@@ -1988,7 +2162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b180c53-7b53-4bfc-a711-3a19746296ad")
-		(property "Reference" "R37"
+		(property "Reference" "R40"
 			(at 147.574 50.8 90)
 			(effects
 				(font
@@ -2049,7 +2223,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "R37")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -2065,7 +2239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d617d4f-d5b5-40ba-b370-be183dc813d1")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR062"
 			(at 161.29 71.12 0)
 			(effects
 				(font
@@ -2115,7 +2289,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "#PWR057")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2131,7 +2305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "437b7bb0-9d1d-4727-abd6-760f323dc730")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR059"
 			(at 72.39 129.54 0)
 			(effects
 				(font
@@ -2181,7 +2355,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "#PWR062")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2197,7 +2371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b420e2c-4c73-4b66-8dfd-66daceffb037")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR058"
 			(at 49.53 64.77 0)
 			(effects
 				(font
@@ -2247,7 +2421,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "#PWR055")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2262,7 +2436,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d2ad452-8b9e-4fdf-9060-4b22d1c87904")
-		(property "Reference" "R33"
+		(property "Reference" "R39"
 			(at 143.51 42.164 90)
 			(effects
 				(font
@@ -2323,7 +2497,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "R33")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -2339,7 +2513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57ad826c-93c2-4480-a235-9ae6ca78901d")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR057"
 			(at 49.53 41.91 0)
 			(effects
 				(font
@@ -2389,7 +2563,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "#PWR053")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2404,7 +2578,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fae9026-101d-473e-bf27-d78cfd5a1cc0")
-		(property "Reference" "R34"
+		(property "Reference" "R42"
 			(at 156.21 42.164 90)
 			(effects
 				(font
@@ -2465,7 +2639,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "R34")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -2480,7 +2654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "759c5e03-5a9d-4be2-b5b6-93a3d38d52be")
-		(property "Reference" "C18"
+		(property "Reference" "C16"
 			(at 150.368 63.5 0)
 			(effects
 				(font
@@ -2542,7 +2716,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "C18")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2558,7 +2732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80c9ff46-7656-4b9c-914e-dd0e3a0a5cd4")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR061"
 			(at 149.86 71.12 0)
 			(effects
 				(font
@@ -2608,7 +2782,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "#PWR056")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2623,7 +2797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3dc07ec-4339-49e3-8a8b-ad07bbe7b4f2")
-		(property "Reference" "R32"
+		(property "Reference" "R37"
 			(at 92.71 42.418 90)
 			(effects
 				(font
@@ -2684,7 +2858,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "R32")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -2699,7 +2873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7af8193-4c11-4932-b49b-2d4641ef6f1b")
-		(property "Reference" "R31"
+		(property "Reference" "R41"
 			(at 156.21 34.544 90)
 			(effects
 				(font
@@ -2760,7 +2934,7 @@
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "R31")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -2776,7 +2950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba4729fb-9bd2-4beb-8918-94bdad9fcae2")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR060"
 			(at 99.06 50.8 0)
 			(effects
 				(font
@@ -2826,7 +3000,84 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "#PWR054")
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 64.77 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1dea3a2-2682-4171-a9ec-cf44742440de")
+		(property "Reference" "D307"
+			(at 64.77 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom:SOD-882_L1.0-W0.6-BI"
+			(at 64.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590905117283729408"
+			(at 64.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 64.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420372"
+			(at 64.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf4f7f70-b7eb-4465-9463-4d190326075a")
+		)
+		(pin "2"
+			(uuid "120d879a-e4f2-4a01-b47a-27f38ba1f607")
+		)
+		(instances
+			(project "riot-badge"
+				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
+					(reference "D307")
 					(unit 1)
 				)
 			)
@@ -2918,7 +3169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9ecfabb-224b-4535-82f5-a75173d567bf")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 225.935 39.37 0)
 			(effects
 				(font
@@ -2988,143 +3239,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 64.77 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf476265-639d-45b6-ac46-0b0073358f11")
-		(property "Reference" "D306"
-			(at 64.77 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 64.77 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "custom:DFN0603-2L-BI"
-			(at 64.77 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8564879078034325504"
-			(at 64.77 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 64.77 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8998f9a7-985a-46ec-a8dd-6650a1e6d2f7")
-		)
-		(pin "2"
-			(uuid "ec438583-0325-43cf-a92f-d137e86378a3")
-		)
-		(instances
-			(project "riot-badge"
-				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "D306")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 64.77 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7e287c3-d365-4803-bc32-e2559e3c0919")
-		(property "Reference" "D289"
-			(at 64.77 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 64.77 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "custom:DFN0603-2L-BI"
-			(at 64.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8564879078034325504"
-			(at 64.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 64.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfb10ba4-2181-4ac0-a463-9623db97dce3")
-		)
-		(pin "2"
-			(uuid "7f4f2a92-4ede-4d99-94af-1b7284bad566")
-		)
-		(instances
-			(project "riot-badge"
-				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "D289")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3138,8 +3253,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e1749254-7dcb-4852-9713-2b55481eb305")
-		(property "Reference" "D307"
+		(uuid "e78e9610-33f2-4249-9a6b-dd061ecf80b4")
+		(property "Reference" "D308"
 			(at 64.77 117.094 0)
 			(effects
 				(font
@@ -3156,7 +3271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "custom:DFN0603-2L-BI"
+		(property "Footprint" "custom:SOD-882_L1.0-W0.6-BI"
 			(at 64.77 119.38 0)
 			(effects
 				(font
@@ -3165,7 +3280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8564879078034325504"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590905117283729408"
 			(at 64.77 119.38 0)
 			(effects
 				(font
@@ -3183,16 +3298,25 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420372"
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "8fc8bfd3-1a81-4b07-9917-8810873b39e4")
+			(uuid "570e2bfa-c59a-41f2-b3e0-e38e07bba497")
 		)
 		(pin "2"
-			(uuid "c1b0eb46-eca3-4409-9a0a-0ec120a7d37e")
+			(uuid "12fa51fd-0f20-4489-8f1d-f640053747aa")
 		)
 		(instances
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "D307")
+					(reference "D308")
 					(unit 1)
 				)
 			)
@@ -3302,7 +3426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdfa928f-4e18-41c4-b6ee-b543e1c11deb")
-		(property "Reference" "R30"
+		(property "Reference" "R38"
 			(at 143.51 34.544 90)
 			(effects
 				(font
@@ -3363,7 +3487,7 @@
 		(instances
 			(project ""
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/33b66988-6c10-43b3-b7b0-6637e526ee3e"
-					(reference "R30")
+					(reference "R38")
 					(unit 1)
 				)
 			)

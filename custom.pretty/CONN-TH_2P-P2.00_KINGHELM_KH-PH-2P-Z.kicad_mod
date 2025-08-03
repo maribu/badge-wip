@@ -1,0 +1,173 @@
+(footprint "CONN-TH_2P-P2.00_KINGHELM_KH-PH-2P-Z"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "87bfa8e1-9426-4830-9fff-828d71f09a56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-TH_2P-P2.00_KINGHELM_KH-PH-2P-Z"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "2dfabaa3-c8cb-42b3-a485-2c0874b52c36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "021bd064-10bc-4c1a-bab5-0b8a1fbc8bd5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "135881e7-354e-46d9-87d7-9685a8dbd859")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3 -0.5)
+		(end -3 -2.9)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e2e89e2-bedb-407f-84d2-6299161beab5")
+	)
+	(fp_line
+		(start -3 1.8)
+		(end -3 0.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ef44b24-d067-4ae8-8987-0c48bb7bb39e")
+	)
+	(fp_line
+		(start -3 1.8)
+		(end -2 1.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b45872a0-01f1-479a-b3e4-75c7db9e79af")
+	)
+	(fp_line
+		(start 2 1.8)
+		(end 3 1.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1bf15ebe-709c-4eb5-a9e8-9e4490166788")
+	)
+	(fp_line
+		(start 3 -2.9)
+		(end -3 -2.9)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d456423a-488c-428f-ba76-e232ba8d7099")
+	)
+	(fp_line
+		(start 3 -0.5)
+		(end 3 -2.9)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a87788cc-7b31-4cbd-92db-1818b6ade996")
+	)
+	(fp_line
+		(start 3 1.8)
+		(end 3 0.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d8913a0-2405-4697-991b-a51da7897a68")
+	)
+	(fp_circle
+		(center -3 1.8)
+		(end -2.97 1.8)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "94a685b2-d08c-4cc4-a547-81d0779fa1ac")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e5f87154-11a5-4510-89f5-152c64f52eb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1 0)
+		(size 1.52 1.4)
+		(drill 0.900024)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0bfed00f-0586-43d9-a1fa-df91d5a760cb")
+	)
+	(pad "2" thru_hole circle
+		(at 1 0)
+		(size 1.4 1.4)
+		(drill 0.900024)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ce99369-a05c-4af7-985d-52d6becd4352")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/custom.3dshapes/CONN-TH_2P-P2.00_KINGHELM_KH-PH-2P-Z.wrl"
+		(offset
+			(xyz 0 0.5 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
