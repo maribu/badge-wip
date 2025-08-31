@@ -440,6 +440,7 @@
       "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -697,6 +698,10 @@
     [
       "ec9c9ba8-ddf0-4e29-b6c8-8706f3712685",
       "Power & USB"
+    ],
+    [
+      "423817f7-b62a-4c40-b768-d8c6ac3b788e",
+      "uSD Card"
     ]
   ],
   "text_variables": {}
