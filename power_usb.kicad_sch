@@ -1449,130 +1449,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -2813,18 +2689,6 @@
 		(uuid 504e800f-113c-45ce-acd3-8e1e5514d5f2)
 	)
 	(rectangle
-		(start 80.01 104.14)
-		(end 123.444 147.32)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5e5fe580-8b54-4e6e-bd21-2ee3e7926fdb)
-	)
-	(rectangle
 		(start 80.01 15.24)
 		(end 123.19 55.88)
 		(stroke
@@ -2896,18 +2760,6 @@
 		)
 		(uuid "af9d432b-62ef-4a64-b1b9-67ee0c21af44")
 	)
-	(text "VBAT Sensing"
-		(exclude_from_sim no)
-		(at 102.108 109.22 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "d949f151-ed04-4579-ad87-ca8965d11880")
-	)
 	(junction
 		(at 29.21 81.28)
 		(diameter 0)
@@ -2937,12 +2789,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c45fbf0-f19a-464e-b383-ca529f9f21f8")
-	)
-	(junction
-		(at 88.9 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "625769f0-9593-4b28-a33e-f965cfd9744a")
 	)
 	(junction
 		(at 90.17 34.29)
@@ -3184,16 +3030,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 129.54) (xy 88.9 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8367461a-6c57-457b-bd66-23d7169f323e")
-	)
-	(wire
-		(pts
 			(xy 44.45 39.37) (xy 53.34 39.37)
 		)
 		(stroke
@@ -3211,16 +3047,6 @@
 			(type default)
 		)
 		(uuid "8c986606-18e6-4105-ac1b-e2595ab72716")
-	)
-	(wire
-		(pts
-			(xy 97.79 129.54) (xy 88.9 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9027b577-1680-4a50-ad7f-9a6fc1a215de")
 	)
 	(wire
 		(pts
@@ -3364,16 +3190,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 129.54) (xy 88.9 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f26ec044-b00b-4461-9f2a-9ed577ab15fc")
-	)
-	(wire
-		(pts
 			(xy 44.45 39.37) (xy 44.45 41.91)
 		)
 		(stroke
@@ -3402,17 +3218,6 @@
 			(justify left)
 		)
 		(uuid "11cae6fb-c51b-4b56-8e97-2da68df15a10")
-	)
-	(hierarchical_label "VBAT"
-		(shape output)
-		(at 97.79 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "371721a1-2786-413f-b72e-9e488b4abfe0")
 	)
 	(hierarchical_label "D-"
 		(shape bidirectional)
@@ -3847,72 +3652,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b634f22-274e-4ae5-959b-6489c09b679a")
-		(property "Reference" "#PWR083"
-			(at 88.9 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1c72832-ef6d-4dbf-9312-bda5405a908f")
-		)
-		(instances
-			(project ""
-				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/ec9c9ba8-ddf0-4e29-b6c8-8706f3712685"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 44.45 33.02 0)
 		(unit 1)
@@ -4050,82 +3789,6 @@
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/ec9c9ba8-ddf0-4e29-b6c8-8706f3712685"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 88.9 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26c214ed-1d4d-40d1-80c2-ca5b664ece7a")
-		(property "Reference" "R53"
-			(at 91.186 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47K"
-			(at 88.9 124.714 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 87.122 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705927001427968"
-			(at 88.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "UNI-ROYAL(Uniroyal Elec) 0402WGF4702TCE; SMD Chip Resistor"
-			(at 88.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25792"
-			(at 88.9 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27ab84e6-d560-4a23-93b1-5659481e99ee")
-		)
-		(pin "2"
-			(uuid "d1fe2150-2a67-4335-84dc-89c87d4a2d9a")
-		)
-		(instances
-			(project "riot-badge"
-				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/ec9c9ba8-ddf0-4e29-b6c8-8706f3712685"
-					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -5034,72 +4697,6 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 88.9 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7140d5b6-8531-4bc0-99c4-21940cbf2e7d")
-		(property "Reference" "#PWR082"
-			(at 88.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 88.9 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 88.9 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97e4a88c-ee76-4194-b7d7-8a405337e8bf")
-		)
-		(instances
-			(project "riot-badge"
-				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/ec9c9ba8-ddf0-4e29-b6c8-8706f3712685"
-					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
 		(at 107.95 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5348,82 +4945,6 @@
 			(project "riot-badge"
 				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/ec9c9ba8-ddf0-4e29-b6c8-8706f3712685"
 					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 88.9 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9640d2c8-943a-44ce-8cd0-e38edc1ce162")
-		(property "Reference" "R54"
-			(at 91.186 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47K"
-			(at 88.9 134.874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 87.122 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705927001427968"
-			(at 88.9 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "UNI-ROYAL(Uniroyal Elec) 0402WGF4702TCE; SMD Chip Resistor"
-			(at 88.9 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25792"
-			(at 88.9 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "768976d1-61ad-4937-84b8-8ec89eee168b")
-		)
-		(pin "2"
-			(uuid "2c7335d2-0944-4178-86c3-433d3f94613d")
-		)
-		(instances
-			(project "riot-badge"
-				(path "/55a8f9ac-2064-4bfa-acf1-805ed6f7ac1b/ec9c9ba8-ddf0-4e29-b6c8-8706f3712685"
-					(reference "R54")
 					(unit 1)
 				)
 			)

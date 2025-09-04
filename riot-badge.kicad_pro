@@ -702,6 +702,10 @@
     [
       "423817f7-b62a-4c40-b768-d8c6ac3b788e",
       "uSD Card"
+    ],
+    [
+      "121def55-f477-4968-ba62-d46aee31194c",
+      "Accelerometer"
     ]
   ],
   "text_variables": {}
